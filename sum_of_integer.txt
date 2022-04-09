@@ -1,0 +1,7 @@
+list_of_collection=[10,20,'hai',(1,2,3),[2,9]]
+sum=0
+for i in list_of_collection :
+   if type(i) == int:
+      sum+=i
+print(sum)
+       
