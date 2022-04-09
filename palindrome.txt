@@ -1,0 +1,13 @@
+n=121
+rem=0
+i=1
+temp=n
+while(n>0):
+   a= n%10
+   rem=rem*10+a
+   n=n//10
+if temp==rem:
+    print('True')
+else:
+    print('False' )
+   
